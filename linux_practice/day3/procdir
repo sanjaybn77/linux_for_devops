@@ -1,0 +1,26 @@
+concepts exploring the /proc directory for process information
+
+1) accessing the process infrmation
+/proc/<pid> -> you will get the directory or file
+
+2) comman proc commads directory
+/proc/<pid>/status -> youwill get the full information about that process
+cat /proc/<pid>/status -> same as above command
+
+3) current working directory (cwd)
+readlink  /proc/<pid>/cwd
+
+4) to get load average information
+cat /proc/loadavg
+
+5) to get cpu information
+cat /proc/cpuinfo
+
+6) to get memory information
+cat /proc/meminfo
+ 
+7) to check the commend line argument is there are not
+
+cat /proc/<pid>/cmdline
+
+

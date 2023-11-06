@@ -1,0 +1,24 @@
+day 4 morinig concepts is 
+system monitoring and resource utilization (free, df,du)
+
+1)
+monitor the sysem Memory 
+free
+free -t => shows the total memory
+free -s 6 -> refresh every or shoes the output every 6 sec
+free -h -> provides human readable output
+
+2) 
+checking disk space  usage for mounted devices
+df command --> it is used to check the disk space in higher level eg: C drive, D drive so on
+
+df -h
+df -T = include type collumn
+df -i -> include i node(file and directory)
+
+3) disk space du
+du  --> it is used to check the space in specific directory, or in a granual layer.
+du -c -> shows total space
+du -k shows in KB
+du -h -> human readable
+

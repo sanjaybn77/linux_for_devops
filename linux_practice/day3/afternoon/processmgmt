@@ -1,0 +1,27 @@
+1) ps aux -> it will shows the process running in your system
+options
+-f ->display full information
+-e ->shows all process
+-u -> username
+example
+ps aux | grep chrome
+it will display all the process running in chrome
+
+2)  monitor the system 
+top -> monitor the system activity
+it will dispaly all real time dyanamic views of your system
+this command also shows the cpu utlization, memory utilization and pid so on
+
+
+3) kill command or terminating  forcefully
+ force stop your process
+ex:-> kill pid( here pid means process id)
+kill 1201
+
+
+4) process state 
+running, sleeping , stoped, zombie
+1) running -> currently executing 
+2) sleeping -> waiting for an event fo proced
+3) stopped -> stoped by the user or  signal
+4) zombie -> terminated but not yet cleaned up 

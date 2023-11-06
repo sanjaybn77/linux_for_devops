@@ -1,0 +1,56 @@
+topic -> understanding the linux file system hierarchy
+/ - root directory
+/bin - store the binary files
+/boot - stores the boott loader files
+/etc - stores the system  configuration files
+/var - stores the log files , means user log
+/usr - stores the user related files
+/home - here we can create the our folders 
+/tmp - stores the temporary files
+/lib  /lib64 - library eassential for system boot
+
+
+
+
+2) navigation commands
+ls -l, ls -R, ls -a, ls, cd,pwd
+
+
+3) absolute path and reletive path
+absolute path -> starting from the root
+relative path -> current working directory
+
+4) short cut for home directory
+tild(~) eg:-> cd ~
+
+5) system configuration files 
+/etc
+
+eg:-> /etc/fstab
+etc/hostname
+etc/network/interface
+
+6)user home directories
+/home
+in under home by default  Desktop, Downloads, Pictures, Music ......... are there
+user define - home/Sanjay
+
+7)System binaries and libraries 
+in this directory contain important files which is used for system booting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

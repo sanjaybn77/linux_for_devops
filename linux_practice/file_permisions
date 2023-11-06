@@ -1,0 +1,19 @@
+in linux file permision determine who can read , write and execute file and directories
+command is chmod -->
+chmod --> change permission
+
+1) symbloic notation
+
+who = u(user/owner), g(group), o(others)
+operate = +(add), -( remove), = (set)
+permission = r(read), w(write), x(execute)
+
+2) octal notation
+x->owner/user, y ->group, z->others.
+permissions = 4-> read, 2->write, 1->execute
+
+
+
+chown --> change ownership or files and directories
+example:->
+chown user/owner filename/directories

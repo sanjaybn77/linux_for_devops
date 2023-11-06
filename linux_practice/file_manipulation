@@ -1,0 +1,13 @@
+1)cp command 
+this command is used for copy the file and copy the directories also
+eg:-> cp file1.txt /path/to/copy
+
+2)mv command
+this command is used for move the file and directories and also
+rename the file.
+
+eg:- 1) rename the file
+mv file1.txt file2.txt
+2)move from one location to another location
+mv file1.txt /new/location
+ 

@@ -1,0 +1,16 @@
+hey hi here i'm add the text edditors, types, and properties
+1) vim
+2) vi
+3) nano
+the above vim and nano are the user friendly and vi edditor is little bit complex for beginers
+
+
+
+advance concepts of text editors
+1) searching ang replacing 
+command
+:%s/old_text/new _text/g
+
+2) split the tab
+i) vertically -> :vsplit
+ii)horizontally-> :split
